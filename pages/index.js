@@ -13,42 +13,74 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Nura Tabanjeh
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+          Web Developer and Civil Engineer <br></br></p>
+          <ul>
+          <li> <a href="https://github.com/nuratabanjeh">My GitHub</a><br></br></li>
+          <li> <a href="https://www.linkedin.com/in/nura-tabanjeh-0237391b9/">My linkedin</a><br></br></li>
+          <li> <a href = "mailto: nuratabanjeh96@gmail.com">Send Me An Email</a><br></br></li>
+          <li> <a href="tel:+962799810793">+962799810793</a></li>
+        </ul>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          
+            <h2>Education &rarr;</h2>
+                      <p>Bootcamp of Web Development,
+          Code Fellows - ASAC, jordan – Amman ( 2021)<br></br>
+          Bachelor Degree of Civil Engineering ,
+          BAU – Jordan – Irbid(2014 - 2019)
+          </p>
+                  
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          
+            <h2>Programming Languages &rarr;</h2>
+<ul>           
+<li>HTML</li>
+<li>CSS</li>
+<li>Python</li>
+<li>JavaScript</li>
+</ul>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+            <h2>Skills &rarr;</h2>
+            <ul>           
+<li>Django</li>
+<li>REST framework</li>
+<li>Docker</li>
+<li>React Js</li>
+<li>Bootstrap</li>
+<li>MongoDb</li>
+<li>PostgreSQL</li>
+<li>Git</li>
+<li>GitHub</li>
+<li>VS Code</li>
+<li>Heroku</li>
+<li>Netlify</li>
+<li>Tkinter</li>
+<li>Linux Ubuntu</li>
+<li>Next.js , Vercel</li>
+<li>Tailwind CSS</li>
+</ul>
+        
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+            <h2>Projects &rarr;</h2>
+            <ul>           
+<li>(Maintenance Doctor) : this project was solving the issue of
+finding a professional home maintenance workers and providing
+jobs for these workers. Me and my team used HTML , CSS,
+JavaScript to build our web application.</li> <br></br>
+<li>(Capture It) : this project was a React application for
+photographers “platform” , it allows them to search for random
+photos using (API) , adding their photos, sharing them and
+interaction on other peoples photos by comments or likes.</li><br></br>
+<li>(Real Time Translator) : this project was a Python application for
+translation (voice detection , Text detection, Camera detection ,
+Language detection) using Python libraries for the backend and
+Tkinter package for GUI.</li>
+</ul> 
+         
         </div>
       </main>
 
